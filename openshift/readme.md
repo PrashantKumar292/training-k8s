@@ -17,7 +17,7 @@ oc new-app --name myapp <repository-url>
 ```
 To do it in two steps use:
 ```
-oc new-build --name=demo1  https://github.com/mevijays/training-k8s --context-dir=openshift/static
+oc new-build --name=demo1  https://github.com/PrashantKumar292/training-k8s --context-dir=openshift/static
 oc new-app demo1
 ```
 ### Example dockerfile build from github 
